@@ -1,0 +1,59 @@
+body{
+   background-color: #f0f2f5;
+}
+
+.main{
+   width: 50%;
+   margin: auto;
+}
+
+.inputValue{
+   display: flex;
+}
+
+.inputValue input{
+   width: 100%;
+   padding-left: 10px;
+   margin-right: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.171);
+   border-radius: 5px;
+}
+
+.inputValue button{
+   width: 20%;
+}
+
+.setValue{
+   display: flex;
+   flex-direction: column;
+}
+
+.search{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 5%;
+}
+.search select, input{
+   border: 1px solid rgba(0, 0, 0, 0.171);
+   border-radius: 5px;
+   width: 40%;
+   margin-right: 10px;
+}
+
+.search button{
+   margin-left: 10px;
+   width: 15%;
+}
+
+/* ////////// table //////// */
+.table{
+   border-collapse: separate;
+   border-spacing: 0px 4px;
+   vertical-align: middle;
+}
+.thead{
+   padding-top: 10px;
+}
+.btnn{
+   margin-right: 2%;
+}
